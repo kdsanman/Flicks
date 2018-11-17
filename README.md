@@ -2,7 +2,7 @@
 
 **Flicks** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-Time spent: **2.5** hours spent in total
+Time spent: **3.5** hours spent in total
 
 ## User Stories
 
@@ -25,7 +25,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
-Identifying where exactly to decide which image to use.
+- Identifying where exactly to decide which image to use.
+- Handling change in orientation without the app crashing.
 
 ## Open-source libraries used
 
