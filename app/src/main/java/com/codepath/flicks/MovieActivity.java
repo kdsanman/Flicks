@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 
 import com.codepath.flicks.adapters.MoviesAdapter;
 import com.codepath.flicks.models.Movie;
@@ -44,7 +43,7 @@ public class MovieActivity extends AppCompatActivity {
                     JSONArray movieJsonArray = response.getJSONArray("results");
                     movies.addAll(Movie.fromJsonArray(movieJsonArray));
                     adapter.notifyDataSetChanged();
-                    Log.d("smile", movies.toString());
+                    //Log.d("smile", movies.toString());
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
